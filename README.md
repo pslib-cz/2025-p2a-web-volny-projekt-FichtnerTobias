@@ -2,7 +2,7 @@
 
 > **Jméno a příjmení:** `Tobiáš Fichtner`
 
-> **Název projektu:** `Projektoví projekt`
+> **Název projektu:** `AI course`
 
 ---
 
@@ -10,7 +10,7 @@
 
 _Krátce popište svůj projekt – čemu se věnuje, co nabízí a jaký problém řeší?_
 
-`Budu dělat web na víživové doplněky jako jsou vitaminy sportovní dopllňky a ostatní`
+`Udělam web kde popíšu a rozeberu jednotlive IA a vytvořím odkaz na kurz`
 
 ---
 
@@ -26,7 +26,7 @@ _Uveďte konkurenční projekty. Co se vám na nich líbí, co ne? V čem se mů
 
 _Kdo je váš cílový uživatel / zákazník? Popište typického zástupce cílové skupiny._
 
-`Doplňte cílovou skupinu.`
+`Cílovou skupinou jsou lide kteří denně pracují s umělou inteligencí a potřebují zlepšit sve dovednosti v chatování s AI`
 
 
 ## Odkazy a výstupy
@@ -35,9 +35,9 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 
 | Výstup | Odkaz |
 |---|---|
-| GitHub Pages (live) | [`odkaz`](#) |
+| GitHub Pages (live) | [`odkaz`](https://pslib-cz.github.io/2025-p2a-web-volny-projekt-FichtnerTobias/) |
 | Grafický manuál (Figma / Canva) | [`odkaz`](https://www.figma.com/design/Gpnitkwe1U1jBani7TaxCu/voln%C3%BD-web?node-id=0-1) |
-| Grafický návrh webu (Figma) | [`Doplň odkaz`](#) |
+| Grafický návrh webu (Figma) | [`Doplň odkaz`](https://www.figma.com/design/Gpnitkwe1U1jBani7TaxCu/voln%C3%BD-web?node-id=0-1) |
 | Fotografie / média | [`Doplň odkaz`](#) |
 
 ---
