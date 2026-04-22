@@ -1,8 +1,8 @@
 # Volný projekt
 
-> **Jméno a příjmení:** `Doplňte`
+> **Jméno a příjmení:** `Tobiáš Fichtner`
 
-> **Název projektu:** `Doplňte`
+> **Název projektu:** `Projektoví projekt`
 
 ---
 
@@ -10,7 +10,7 @@
 
 _Krátce popište svůj projekt – čemu se věnuje, co nabízí a jaký problém řeší?_
 
-`Doplňte popis projektu.`
+`Budu dělat web na víživové doplněky jako jsou vitaminy sportovní dopllňky a ostatní`
 
 ---
 
@@ -35,8 +35,8 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 
 | Výstup | Odkaz |
 |---|---|
-| GitHub Pages (live) | [`Doplň odkaz`](#) |
-| Grafický manuál (Figma / Canva) | [`Doplň odkaz`](#) |
+| GitHub Pages (live) | [`odkaz`](#) |
+| Grafický manuál (Figma / Canva) | [`odkaz`](https://www.figma.com/design/Gpnitkwe1U1jBani7TaxCu/voln%C3%BD-web?node-id=0-1) |
 | Grafický návrh webu (Figma) | [`Doplň odkaz`](#) |
 | Fotografie / média | [`Doplň odkaz`](#) |
 
