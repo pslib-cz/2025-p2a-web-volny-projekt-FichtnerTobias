@@ -36,8 +36,8 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 | Výstup | Odkaz |
 |---|---|
 | GitHub Pages (live) | [`odkaz`](https://pslib-cz.github.io/2025-p2a-web-volny-projekt-FichtnerTobias/) |
-| Grafický manuál (Figma / Canva) | [`odkaz`](https://www.figma.com/design/Gpnitkwe1U1jBani7TaxCu/voln%C3%BD-web?node-id=0-1) |
-| Grafický návrh webu (Figma) | [`Doplň odkaz`](https://www.figma.com/design/Gpnitkwe1U1jBani7TaxCu/voln%C3%BD-web?node-id=0-1) |
+| Grafický manuál (Figma / Canva) | [`odkaz`](https://www.figma.com/design/IlFfU1VfTXNuqG3fecJy1H/FichtnerTobi%C3%A1%C5%A1?node-id=0-1) |
+| Grafický návrh webu (Figma) | [`Doplň odkaz`](https://www.figma.com/design/IlFfU1VfTXNuqG3fecJy1H/FichtnerTobi%C3%A1%C5%A1?node-id=0-1) |
 | Fotografie / média | [`Doplň odkaz`](#) |
 
 ---
