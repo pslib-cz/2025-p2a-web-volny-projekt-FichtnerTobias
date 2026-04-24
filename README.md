@@ -10,7 +10,7 @@
 
 _Krátce popište svůj projekt – čemu se věnuje, co nabízí a jaký problém řeší?_
 
-`Udělam web kde popíšu a rozeberu jednotlive IA a vytvořím odkaz na kurz`
+`Udělam web kde popíšu a rozeberu jednotlive IA a vytvořím (fiktivní) odkaz na kurz. Projekt se zaměřuje Hlavně na vysvětlení silnych a slabích stránek jednotlivích AI modelů. V projektu se budu zaměřovat na moderní elegantní a jednoduchý design ktery by nohl zapusobit na mladé publikum.`
 
 ---
 
@@ -26,7 +26,7 @@ _Uveďte konkurenční projekty. Co se vám na nich líbí, co ne? V čem se mů
 
 _Kdo je váš cílový uživatel / zákazník? Popište typického zástupce cílové skupiny._
 
-`Cílovou skupinou jsou lide kteří denně pracují s umělou inteligencí a potřebují zlepšit sve dovednosti v chatování s AI`
+`Cílovou skupinou jsou lide kteří denně pracují s umělou inteligencí a potřebují zlepšit sve dovednosti v chatování s AI aby dokazali pracovat více efektivně a zvolili si ai ktere se pro jejich zajmi nejvíce hodí.`
 
 
 ## Odkazy a výstupy
