@@ -1,7 +1,5 @@
+/* Hamburger menu */
 
-
-
-/* Hamburger menu*/
 .nav--open .hamburger span:nth-child(1) {
   transform: translateY(16px) rotate(45deg);
 }
@@ -11,6 +9,7 @@
 .nav--open .hamburger span:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
+
 @media (max-width: 1250px) {
   .header__nav {
     grid-template-columns: auto auto;
@@ -34,5 +33,33 @@
   .nav--open .header__nav-list,
   .nav--open .header__nav-buttons {
     display: grid;
+  }
+}
+
+/* ai karty */
+
+@media (max-width: 900px) {
+  .ai {
+    grid-template-columns: repeat(2, minmax(250px, 300px));
+  }
+}
+
+@media (max-width: 600px) {
+  .ai {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* footer */
+
+@media (max-width: 800px) {
+  .footer__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer__grid {
+    grid-template-columns: 1fr;
   }
 }

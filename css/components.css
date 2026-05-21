@@ -1,16 +1,11 @@
-
-
-
-
-
-.brand-logo{
+.brand__logo {
   display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 0.5rem;
   font-size: var(--normal-text);
   font-weight: bold;
 }
-
 
 .hamburger {
   display: none;
@@ -32,7 +27,7 @@
   transition: transform 0.3s, opacity 0.3s;
 }
 
-.main_button {
+.btn--main {
   padding: 1.1em 2.5em;
   border-radius: 10px;
   border: 2px solid transparent;
