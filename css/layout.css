@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700&display=swap');
 
 
+:root{
+  --space-section: clamp(4rem, 10vw, 200px);
+  --space-lg: clamp(4rem, 5vw, 150px);
+  --space-md: clamp(1.5rem, 3vw, 3rem);
+}
+
+
 * {
   font-family: "Roboto";
 }
@@ -11,8 +18,15 @@ a {
 
 body {
   display: grid;
-  gap: 200px;
+  gap: var(--space-section);
+  overflow-x: hidden;
+  width: 100%;
+  box-sizing: border-box;
 }
+
+
+/* //////////// main.css \\\\\\\\\\\\\ */
+
 
 
 /*--------------------------
@@ -24,7 +38,9 @@ body {
   grid-template-rows: auto 1fr;
   grid-template-columns: 1fr;
   padding: 1rem;
-  row-gap: 200px;
+  row-gap: var(--space-section);
+  box-sizing: border-box;
+  width: 100%;
 }
 
 
@@ -39,6 +55,7 @@ body {
   padding: 0.5rem 1rem;
   gap: 1rem;
   position: sticky;
+  min-width: 0;
 }
 
 .header__nav-list {
@@ -87,7 +104,7 @@ body {
   text-align: center;
   align-content: center;
   grid-template-rows: auto auto auto;
-  row-gap: 180px;
+  row-gap: var(--space-section);
 }
 
 .header__main {
@@ -109,6 +126,7 @@ body {
 .header__main-button--register {
   display: grid;
   font-weight: 600;
+  
 }
 
 /*--------------------------
@@ -117,7 +135,7 @@ body {
 
 main {
   display: grid;
-  gap: 140px;
+  gap: var(--space-section);
 }
 
 
@@ -174,7 +192,7 @@ h2 {
 .side-content {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 150px;
+  gap: var(--space-lg);
 }
 
 .side-content__title {
@@ -230,7 +248,7 @@ h2 {
   display: grid;
   justify-content: center;
   text-align: center;
-  gap: 80px;
+  gap: var(--space-section);
 }
 
 .courses__title {
@@ -333,8 +351,10 @@ h2 {
 
 footer {
   display: grid;
-  margin: 2rem;
+  margin: 0 2rem 2rem 2rem;
   border-radius: 40px;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .footer__grid {
@@ -397,4 +417,80 @@ form {
   align-self: center;
   padding: 0.5rem 2rem;
   border-radius: 20px;
+}
+
+.footer__copyright {
+  text-align: center;
+  padding: 1rem;
+}
+
+
+
+/* //////////// register.css \\\\\\\\\\\\\ */
+
+
+/* ----------register nav---------- */
+
+.header__nav--register {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  background: none;
+  border-radius: 0;
+}
+
+.register__back {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.header__nav--register .brand__logo {
+  justify-self: center;
+}
+
+.header__nav--register .hamburger {
+  display: grid;
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.header__nav--register .header__nav-list {
+  display: none;
+  grid-column: 1/4 ;
+  grid-row: 2;
+  grid-auto-flow: row;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  place-items: center;
+  gap: 2rem;
+  padding: 0.5rem 0;
+}
+
+.nav--open.header__nav--register .header__nav-list {
+  display: grid;
+}
+
+
+/* nadpis */
+
+
+.main__h2{
+  text-align: center;
+  display: grid;
+}
+
+/* formulař */
+
+
+.register__main{
+  place-items: center;
+}
+
+
+.register__form{
+  display: grid;
+  justify-content: center;
+  max-width: 340px;
+  border-radius: 30px;
+  padding: 2rem 3rem;
 }

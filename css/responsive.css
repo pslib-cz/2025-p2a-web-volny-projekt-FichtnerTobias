@@ -36,6 +36,37 @@
   }
 }
 
+
+
+
+.header__nav--always-open .hamburger {
+  display: grid !important;
+}
+
+.header__nav--always-open {
+  grid-template-columns: auto auto !important;
+  justify-content: space-between !important;
+}
+
+.header__nav--always-open .header__nav-list,
+.header__nav--always-open .header__nav-buttons {
+  display: none !important;
+  grid-column: 1 / -1;
+  grid-auto-flow: row;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 2rem;
+  padding: 0.5rem 0;
+}
+
+.nav--open.header__nav--always-open .header__nav-list,
+.nav--open.header__nav--always-open .header__nav-buttons {
+  display: grid ;
+}
+
+
+
+
 /* ai karty */
 
 @media (max-width: 900px) {

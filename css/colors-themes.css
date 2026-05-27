@@ -4,12 +4,14 @@
   --third-text-colour: linear-gradient(90deg, #5ea6ff, #cc00ff);
   --transparent-black: rgba(0, 0, 0, 0.8);
   --section-background: rgb(12, 25, 51);
+
+
 }
 
 
 /* backgrounds */
 
-body {
+html {
   background-color: #0a0f1e;
   background-image: radial-gradient(
     ellipse at top center,
