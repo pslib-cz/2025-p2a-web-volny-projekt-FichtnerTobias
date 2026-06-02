@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700&display=swap');
 
 
-:root{
+:root {
   --space-section: clamp(4rem, 10vw, 200px);
   --space-lg: clamp(4rem, 5vw, 150px);
   --space-md: clamp(1.5rem, 3vw, 3rem);
@@ -25,7 +25,7 @@ a {
 }
 
 
-/* //////////// main.css \\\\\\\\\\\\\ */
+/* //////////// index \\\\\\\\\\\\\ */
 
 
 
@@ -65,7 +65,14 @@ a {
   grid-template-columns: repeat(4, 0.5fr);
   align-items: center;
   justify-items: center;
+  background: rgba(0, 0, 0, 0.288);
 }
+
+.nav--open .header__nav-list,
+.nav--open .header__nav-buttons {
+  border-top: 1px solid rgb(255, 255, 255);
+}
+
 
 .header__nav-buttons {
   display: grid;
@@ -126,7 +133,7 @@ a {
 .header__main-button--register {
   display: grid;
   font-weight: 600;
-  
+
 }
 
 /*--------------------------
@@ -426,17 +433,19 @@ form {
 
 
 
-/* //////////// register.css \\\\\\\\\\\\\ */
+/* //////////// register \\\\\\\\\\\\\ */
 
 
-/* ----------register nav---------- */
 
-.register{
+
+.register {
   display: grid;
   gap: var(--space-md);
 }
 
-.register .header{
+/* ----------register nav---------- */
+
+.register .header {
   gap: 0;
 }
 
@@ -464,26 +473,30 @@ form {
 }
 
 .header__nav--register .header__nav-list {
-  display: none;
-  grid-column: 1/4 ;
+  display: grid;
+  grid-column: 1/4;
   grid-row: 2;
   grid-auto-flow: row;
   grid-template-columns: 1fr;
   justify-items: center;
   place-items: center;
   gap: 2rem;
-  padding: 0.5rem 0;
+  padding: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.4s ease;
 }
 
 .nav--open.header__nav--register .header__nav-list {
-  display: grid;
+  max-height: 500px;
+  padding: 1rem 0;
 }
 
 
 /* nadpis */
 
 
-.main__h2{
+.main__h2 {
   text-align: center;
   display: grid;
 }
@@ -491,29 +504,129 @@ form {
 /* formulař */
 
 
-.register__main{
+.register__main {
   place-items: center;
 }
 
 
-.register__form{
+.register__form {
   display: grid;
   justify-content: center;
-  max-width: 800px;
+  max-width: 360px;
   border-radius: 30px;
   padding: 2rem 3rem;
 }
 
-.register__form-accept{
-  text-align: center; 
+.register__form-accept {
+  text-align: center;
 }
 
-.register footer{
+.input {
   display: flex;
+  padding: 1rem;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 15px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  color: white;
+}
+
+.continue__with--button {
+  display: flex;
+  padding: 15px 68px;
   justify-content: center;
   align-items: center;
   gap: 10px;
   align-self: stretch;
-  border-top: 1px solid  rgb(10, 141, 223) ;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  ;
 }
 
+/* footer */
+
+.register footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  align-self: stretch;
+  border-top: 1px solid rgb(10, 141, 223);
+}
+
+/* //////////// curses \\\\\\\\\\\\\ */
+
+.curses header {
+  padding: 2rem;
+  text-align: center;
+  display: grid;
+  gap: var(--space-lg);
+}
+
+/* karty */
+
+.curses main {
+  padding: var(--space-lg) 0;
+}
+
+
+
+.curse__card {
+  display: grid;
+  gap: 1.5rem;
+  text-align: center;
+  border-radius: 30px;
+  padding: 0 0 1.5rem 0;
+  height: 100%;
+  overflow: hidden;
+  background: var(--section-background);
+}
+
+
+
+.curse__card--title {
+  display: grid;
+  padding: 1rem;
+  align-items: center;
+}
+
+.curse__card--img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.curse__card--description {
+  justify-content: center;
+  text-align: center;
+  padding: 0.5rem;
+
+}
+
+
+.curse__card--link {
+  display: grid;
+  border-radius: 20px;
+  align-items: center;
+  justify-self: center;
+  width: 160px;
+  padding: 0.5em 1em;
+  height: 40px;
+  transition: all 0.5s ease-in-out;
+}
+
+
+
+
+.curses-swiper {
+  --swiper-navigation-color: rgb(255, 255, 255);
+  --swiper-pagination-color: rgb(255, 255, 255);
+  --swiper-pagination-bullet-inactive-color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+.curses footer {
+  margin-top: 3rem;
+}

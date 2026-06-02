@@ -1,3 +1,5 @@
+/* Používáno napříč projektem */
+
 .brand__logo {
   display: flex;
   flex-direction: row;
@@ -36,26 +38,3 @@
   background-clip: padding-box, border-box;
   text-decoration: none;
 }
-
-.input {
-  display: flex;
-  padding: 1rem 1rem;
-  align-items: center;
-  gap: 10px;
-  align-self: stretch;
-  border-radius: 15px;
-  border: 1px solid var(--Basic-derker-blue, #4898FF);
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-}
-
-.continue__with--button {
-  display: flex;
-  padding: 15px 68px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  align-self: stretch;
-  border-radius: 10px;
-  border: 1px solid var(--Basic-derker-blue, #4898FF);
-}
-

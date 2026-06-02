@@ -4,7 +4,7 @@
   --third-text-colour: linear-gradient(90deg, #5ea6ff, #cc00ff);
   --forth-text-colour: #4898FF;
   --transparent-black: rgba(0, 0, 0, 0.8);
-  --section-background: rgb(9, 18, 37);
+  --section-background: rgb(5, 10, 24);
 
 
 }
@@ -35,7 +35,9 @@ html {
 .text--gradient {
   background: var(--secondary-text-colour);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 .text--gradient-2 {
@@ -103,4 +105,5 @@ html {
 
 .border--blue {
   border: 1px solid #4898FF;
+  
 }

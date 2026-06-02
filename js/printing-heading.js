@@ -21,12 +21,12 @@ function type() {
 
   if (charIndex === 0) {
     if (seg.special) {
-      heading.innerHTML += `<span class="special_text"></span>`;
+      heading.innerHTML += `<span class="text--gradient"></span>`;
     }
   }
 
   if (seg.special) {
-    const spans = heading.querySelectorAll('.special_text');
+    const spans = heading.querySelectorAll('.text--gradient');
     spans[spans.length - 1].textContent += seg.text[charIndex];
   } else {
     heading.innerHTML += seg.text[charIndex];

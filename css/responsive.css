@@ -22,17 +22,21 @@
   }
   .header__nav-list,
   .header__nav-buttons {
-    display: none;
     grid-column: 1 / -1;
     grid-auto-flow: row;
     grid-template-columns: 1fr;
     justify-items: center;
     gap: 2rem;
-    padding: 0.5rem 0;
+    padding: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.4s ease;
   }
   .nav--open .header__nav-list,
   .nav--open .header__nav-buttons {
     display: grid;
+    max-height: 500px;
+    padding: 1rem 0;
   }
 }
 
